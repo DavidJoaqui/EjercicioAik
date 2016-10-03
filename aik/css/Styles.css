@@ -1,0 +1,62 @@
+header{
+	
+	background-color: #0071BD;
+}
+@font-face{
+	font-family:'Antonio';
+	src:('./fonts/Antonio-Regular.ttf');
+}
+nav >a {
+	color: white;
+	font-size: 16px;
+	font-family: 'Open Sans'
+}
+	body{
+
+		padding:20px 40px 5px 10px;
+	
+		margin-top:1px; 
+
+		background-color: #ffffff;
+	}
+
+	#logo >h1{
+		color:#8cc602;
+		font-family:'Arial';
+		font-size:50px;
+	}
+
+	#seccion{
+		color: #0071BD;
+		font-family: 'arial';
+		text-align: left;
+	}
+	article >p{
+color: #000000;
+font-family: 'Arial';
+font-size: 16px;
+	}
+	aside{
+		float: right;
+		width: 20%;
+	}
+
+	#article{
+
+		color: #000000;
+		font-family: 'arial';
+	}
+
+	body>footer{
+		background-color:#0071BD;
+		color:#FFFFFF;
+		font-family: 'Arial';
+		font-size: 14px;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		clear: both;
+	}
+aside>a>img{
+	border: 1px solid gray;
+}
