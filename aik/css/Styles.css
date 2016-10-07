@@ -8,7 +8,16 @@ header{
 }
 @font-face{
 	font-family:'Antonio';
-	src:('./fonts/Antonio-Regular.ttf');
+	src:url('../fonts/Antonio-Regular.ttf');
+}
+@font-face{
+	font-family:'Aller';
+	src:url('../fonts/Aller_rg.ttf');
+}
+#font1{
+	font-family: 'Antonio';
+	font-size:2.5em;
+	color:#EB7F00;
 }
 nav >a {
 
@@ -29,16 +38,19 @@ nav >a {
 	#logo >h1{
 		padding: 1px 1px 1px 1px;
 		color:#8cc602;
-		font-family:'Arial';
+		font-family:'Antonio';
 		font-size:50px;
 	}
 
 	#seccion >h1{
 
 		color: #0071BD;
-		font-family: 'arial';
+		font-family: 'Antonio';
 		text-align: left;
 		font-size:30px; 
+	}
+	section >p{
+		font-family: 'Aller';
 	}
 
 	article{
@@ -48,7 +60,7 @@ nav >a {
 
 	article >p{
 color: #000000;
-font-family: 'Arial';
+font-family: 'Aller';
 font-size: 16px;
 width: 90%;
 	}
@@ -67,7 +79,7 @@ width: 90%;
 
 	body>footer{
 		background-color:#0071BD;
-		font-family: 'Arial';
+		font-family: 'Aller';
 		font-size: 12px;
 
 		text-align: center;
