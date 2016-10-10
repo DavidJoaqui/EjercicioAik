@@ -97,3 +97,7 @@ aside>a>img{
 	padding: 30px 20px 10px 30px;
 	float: right;
 }
+
+img{
+	border-radius: 8px;
+}
