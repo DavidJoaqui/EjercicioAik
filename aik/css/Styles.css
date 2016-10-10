@@ -24,7 +24,7 @@ nav >a {
 	color: white;
 	font-size: 16px;
 	font-family: 'Antonio-Regular'
-	padding 1px 1px 1px 1px;
+	
 }
 	body{
 
@@ -47,16 +47,20 @@ nav >a {
 		color: #0071BD;
 		font-family: 'Aller';
 		text-align: left;
-		font-size:30px; 
-
+		font-size:2em; 
+		padding: 2px;
 	}
 	section >p{
 		font-family: 'Aller';
+		border-radius: 15px;
+		background-color: #D2D2D2;
+		padding: 20PX;
 	}
 
 	article{
 		float: left;
 		width: 80%;
+		margin-bottom: 60px;
 	}
 
 	article >p{
@@ -69,6 +73,8 @@ width: 90%;
 
 		float:right;
 		width: 20%;
+		margin-bottom: 60px;
+		margin-right: 20px;
 	}
 
 	article >h1{
@@ -87,17 +93,120 @@ width: 90%;
 		padding-top: 20px;
 		padding-bottom: 20px;
 		clear: both;
+
 	}
 
 	body>footer>p{
 		color: white;
 	}
+
+
 aside>a>img{
-	border: 2px solid gray;
-	padding: 30px 20px 10px 30px;
+	border-radius: 10px;
 	float: right;
+	padding-bottom: 30px;
 }
 
-img{
-	border-radius: 8px;
+#rcorner{
+border-radius:8px;
+width: 200px;
+height:200px;
+background-color: #D2D2D2;
+padding: 20PX;
+}
+
+#table1{
+	
+	border-collapse: collapse;
+	width: 100%;
+	margin-left:10px;
+	margin-bottom: 100px;
+
+}
+#tabla1 table th,td{
+	border:1px solid #8cc602;
+	
+}
+#table1 th{
+	background-color: #0077BD;
+	color: #ffffff;
+}
+
+
+
+#tabla1 table tr:nth-child(odd){
+	background-color:#ffffff;
+	
+
+}
+
+#tabla1 table tr:nth-child(even){
+	background-color:#8cc602;
+
+}
+
+#table2{
+	
+	border-collapse: collapse;
+	width: 100%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+
+}
+#tabla2 table th,td{
+	border:1px solid #8cc602;
+	
+}
+#table2 th{
+	background-color: #0077BD;
+	color: #ffffff;
+}
+
+
+
+#tabla2 table tr:nth-child(odd){
+	background-color:#ffffff;
+
+	
+
+}
+
+#tabla2 table tr:nth-child(even){
+	
+	background-color:#0094ff;
+}
+#img1{
+width: 400px;
+height: 300px;
+max-width: 100%;
+margin-left: 0px;
+float: left;
+}
+#img2{
+width: 400px;
+height: 300px;
+max-width: 100%;
+margin-left: 0px;
+float: right;
+}
+
+input[type=text]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	border:1px solid #CCC;
+}
+input[type=email]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	border:1px solid red;
+
+}
+input[type=submit]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	border:1px solid #CCC;
+	background: #BCC500;
 }
