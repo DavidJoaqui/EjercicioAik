@@ -1,0 +1,243 @@
+header{
+	
+	width: 100%;
+	height: 25px;
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+	background-color: #0071BD;
+}
+@font-face{
+	font-family:'Antonio';
+	src:url('../fonts/Antonio-Regular.ttf');
+}
+@font-face{
+	font-family:'Aller';
+	src:url('../fonts/Aller_rg.ttf');
+}
+#font1{
+	font-family: 'Antonio';
+	font-size:2.5em;
+	color:#EB7F00;
+}
+nav >a {
+
+	color: white;
+	font-size: 16px;
+	font-family: 'Antonio-Regular'
+	
+}
+	body{
+
+		/*padding:20px 40px 5px 10px;*/
+		padding-right: 20px;
+		margin-top:1px; 
+
+		background-color: #ffffff;
+	}
+
+	#logo >h1{
+		padding: 1px 1px 1px 1px;
+		color:#8cc602;
+		font-family:'Antonio';
+		font-size:50px;
+	}
+
+	#seccion >h1{
+
+		color: #0071BD;
+		font-family: 'Aller';
+		text-align: left;
+		font-size:2em; 
+		padding: 2px;
+	}
+	section >p{
+		font-family: 'Aller';
+		border-radius: 15px;
+		background-color: #D2D2D2;
+		padding: 20PX;
+	}
+
+	article{
+		float: left;
+		width: 70%;
+		margin-bottom: 60px;
+	}
+
+	article >p{
+color: #000000;
+font-family: 'Aller';
+font-size: 16px;
+width: 100%;
+	}
+	aside{
+
+		float:right;
+		width: 20%;
+		margin-bottom: 60px;
+		margin-right: 0px;
+	}
+
+	article >h1{
+
+		color: #8cc602;
+		font-family: 'arial';
+		font-size:30px; 
+	}
+
+	body>footer{
+		background-color:#0071BD;
+		font-family: 'Aller';
+		font-size: 12px;
+
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		clear: both;
+
+	}
+	
+	body>footer{
+		color: white;
+	}
+
+
+aside>a>img{
+	border-radius:10px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	
+}
+aside >figcaption{
+	text-align: center;
+	color: #0077BD;
+	
+}
+
+#rcorner{
+border-radius:200px;
+width: 200px;
+height:200px;
+background-color: #D2D2D2;
+padding: 4em;
+margin-right: 20px;
+}
+
+#table1{
+	
+	border-collapse: collapse;
+	width: 100%;
+	margin-left:10px;
+	margin-bottom: 100px;
+
+}
+#tabla1 table th,td{
+	border:1px solid #8cc602;
+	
+}
+#table1 th{
+	background-color: #0077BD;
+	color: #ffffff;
+}
+
+
+
+#tabla1 table tr:nth-child(odd){
+	background-color:#ffffff;
+	
+
+}
+
+#tabla1 table tr:nth-child(even){
+	background-color:#8cc602;
+
+}
+
+#table2{
+	
+	border-collapse: collapse;
+	width: 100%;
+	margin-left: 10px;
+	margin-bottom: 30px;
+
+}
+#tabla2 table th,td{
+	border:1px solid #8cc602;
+	
+}
+#table2 th{
+	background-color: #0077BD;
+	color: #ffffff;
+}
+
+
+
+#tabla2 table tr:nth-child(odd){
+	background-color:#ffffff;
+
+	
+
+}
+
+#tabla2 table tr:nth-child(even){
+	
+	background-color:#0094ff;
+}
+#img1{
+width: 400px;
+height: 300px;
+max-width: 100%;
+margin-left: 0px;
+float: left;
+}
+#img2{
+width: 400px;
+height: 300px;
+max-width: 100%;
+margin-left: 0px;
+float: right;
+}
+form{
+	padding: 15px;
+	float: left;
+	width: 50%;
+	margin:10px;
+	border: 1px solid #0077BD;
+	border-radius: 20px;
+}
+body form>label{
+	float: left;
+	text-align: center;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+input[type=text]{
+	width: 90%;
+	padding: 12px 20px;
+	margin: 10px;
+	border:1px solid #000000;
+}
+input[type=email]{
+	width: 90%;
+	padding: 12px 20px;
+	margin: 10px;
+	border:1px solid #000000;
+	font-family:'montserrat';
+
+}
+input[type=submit]{
+	width: 15%;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #000000;
+	background: #b5b9bc;
+	font-family:'montserrat';
+	color: #0077BD;
+	font-size: 1em;
+}
